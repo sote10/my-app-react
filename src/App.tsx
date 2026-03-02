@@ -72,12 +72,24 @@
 
 // export default App;
 
-import PasswordField from "./components/PasswordField";
+// import PasswordField from "./components/PasswordField";
+
+// function App() {
+//   return (
+//     <div className="min-h-screen bg-gray-100">
+//       <PasswordField />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import Starships from "./components/Starships";
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <PasswordField />
+      <Starships />
     </div>
   );
 }
